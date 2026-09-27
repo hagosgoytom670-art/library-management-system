@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2c3e50;
+    color: rgb(7, 246, 107);
+}
+
+tr:nth-child(even) {
+    background-color: hsl(340, 91%, 49%);
+}

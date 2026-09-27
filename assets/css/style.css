@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+h2 {
+  color: #333;
+}
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+}
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+footer ul li a:hover {
+    text-decoration: underline;
+}
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 12s linear infinite;
+    font-weight: bold;
+    color: #333;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+/* General table styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Table headers */
+th {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Table cells */
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Striped rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Success and error messages */
+p[style*="color:green"] {
+  font-weight: bold;
+  text-align: center;
+}
+
+p[style*="color:red"] {
+  font-weight: bold;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #2980b9;
+}
+/* Status badges */
+.status-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.status-paid {
+  background-color: #27ae60; /* green */
+}
+
+.status-unpaid {
+  background-color: #e74c3c; /* red */
+}
+/* Pay Now button styled as a badge */
+.pay-button {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db; /* blue */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+  background-color: #2980b9; /* darker blue on hover */
+}
+.button-container {
+  display: flex;
+  justify-content: space-between; /* pushes them to opposite ends */
+  align-items: center;
+  margin-top: 20px; /* optional spacing */
+}
