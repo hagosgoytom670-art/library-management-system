@@ -4,6 +4,10 @@
 # Uploaded files
 uploads/
 modules/admin/uploads/
+modules/admins/uploads/
+
+# Dependencies
+vendor/
 
 # VS Code
 .vscode/
