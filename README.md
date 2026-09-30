@@ -70,3 +70,19 @@ The database schema is available in:
 
 ```text
 sql/schema.sql
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](screenshots/Loginpng.png)
+
+### 👨‍💼 Admin Dashboard
+![Admin Dashboard](screenshots/Admin_DashBoard.png)
+
+### 📚 Librarian Dashboard
+![Librarian Dashboard](screenshots/Librarian_DashBoard.png)
+
+### 👨‍🎓 Student Dashboard
+![Student Dashboard](screenshots/Student_Dashboard.png)
+
+### 📖 Book Reservation
+![Book Reservation](screenshots/Request_Reaervation.png)
