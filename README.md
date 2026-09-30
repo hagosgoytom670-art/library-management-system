@@ -68,11 +68,5 @@ The system uses **MySQL** for storing:
 
 The database schema is available in:
 
-`sql/schema.sql`
-
-## ⚙️ Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/hagosgoytom670-art/library-management-system.git
+```text
+sql/schema.sql
