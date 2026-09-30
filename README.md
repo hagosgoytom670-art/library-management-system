@@ -1,89 +1,270 @@
 # 📚 Library Management System
 
-A web-based **Library Management System** developed to simplify and automate library operations. The system provides separate interfaces for students, librarians, and administrators and supports book management, borrowing and returning, reservations, fines, course materials, reports, and email notifications.
+A web-based **Library Management System (LMS)** developed to simplify and automate library operations. The system provides separate functionality for **Students, Librarians, and Administrators**, including book management, borrowing and returning, reservations, fines, course materials, reports, and notifications.
 
 ---
 
 ## 👨‍💻 Developer
 
-**Hagos Goytom Hadis**  
-Information Technology Graduate
+### Hagos Goytom Hadis
 
-- 📧 **Email:** hagosgoytom670@gmail.com
-- 💻 **GitHub:** https://github.com/hagosgoytom670-art
-- 📂 **Repository:** https://github.com/hagosgoytom670-art/library-management-system
+**Information Technology Graduate**
+
+📍 Addis Ababa, Ethiopia
+
+📧 **Email:** hagosgoytom670@gmail.com
+
+💻 **GitHub:**  
+https://github.com/hagosgoytom670-art
+
+📂 **Project Repository:**  
+https://github.com/hagosgoytom670-art/library-management-system
 
 ---
 
-## 🎯 Project Overview
+## 📌 Project Overview
 
 The Library Management System is designed to provide a centralized platform for managing library resources and services.
 
-The system supports three main user roles:
+It replaces many manual library activities with a web-based system where users can access services according to their roles.
 
-- 👨‍🎓 **Student**
-- 📚 **Librarian**
-- 👨‍💼 **Administrator**
+The system supports:
 
-Each role has different permissions and functionalities based on its responsibilities within the library.
+- 👨‍🎓 Students
+- 📚 Librarians
+- 👨‍💼 Administrators
+
+Each role has different permissions and responsibilities within the system.
 
 ---
 
-## 🚀 Features
+# 🚀 Main Features
 
-### 👨‍🎓 Student
+## 👨‍🎓 Student Features
 
 Students can:
 
-- Register and log in to the system
+- Create an account
+- Log in securely
+- Manage their profile
 - Browse available books
 - Search for books
+- View book information
 - Borrow books
-- Return books
+- View borrowed books
 - View borrowing history
-- Reserve books
+- Return books
+- Request book reservations
+- View reservation information
 - View fines
+- View fine history
 - View payment history
+- Make fine payments
 - Download course materials
-- Manage their profile
+- Receive notifications
 
 ---
 
-### 📚 Librarian
+## 📚 Librarian Features
 
 Librarians can:
 
+- Log in to the librarian dashboard
 - Add new books
+- Upload book images
 - Edit book information
 - Delete books
-- Check book availability
+- Search and check books
 - Issue books to students
 - Process returned books
-- Manage book reservations
 - Check student borrowing records
+- Manage book reservations
 - Manage librarian schedules
+- View borrowing information
+- Process fine payments
 - Generate library reports
-- Process fines and payments
 - Send email notifications
+- Monitor library activities
 
 ---
 
-### 👨‍💼 Administrator
+## 👨‍💼 Administrator Features
 
 Administrators can:
 
+- Access the administration dashboard
 - Manage students
+- Create librarian accounts
 - Manage librarians
 - Manage system users
 - Upload course materials
+- Organize course materials
 - Manage library information
-- Generate reports
 - View system activities
-- Manage administrative functions
+- View messages and replies
+- Generate reports
+- Export reports
+- Manage system configuration
 
 ---
 
-## 🛠️ Technologies Used
+# 📖 Book Management
+
+The system provides tools for managing the library book collection.
+
+Book information includes:
+
+- Book title
+- Author
+- Category
+- ISBN
+- Publisher
+- Publication year
+- Available copies
+- Shelf location
+- Book image
+- Added-by information
+- Creation date
+
+Librarians can add, edit, search, and delete books.
+
+---
+
+# 📚 Borrowing System
+
+The borrowing module allows librarians to issue books to students and process returned books.
+
+The system maintains information such as:
+
+- Student
+- Book
+- Borrow date
+- Due date
+- Return date
+- Borrowing status
+- Fine amount
+
+The system also provides borrowing history for students and library staff.
+
+---
+
+# 📌 Book Reservation
+
+Students can request reservations for books through the reservation module.
+
+The librarian can then:
+
+- View reservation requests
+- Check reservation information
+- Process reservations
+
+This helps organize book requests and improve library service management.
+
+---
+
+# 💰 Fine Management
+
+The system supports library fine management.
+
+Students can:
+
+- View current fines
+- View fine history
+- View payment history
+- Make fine payments
+
+Librarians can process and manage fine payments.
+
+---
+
+# 📧 Email Notifications
+
+The system integrates **PHPMailer** for email communication.
+
+Email functionality can be used for library-related notifications such as:
+
+- Book issue notifications
+- Return notifications
+- Overdue notifications
+- Other library communication
+
+---
+
+# 📚 Course Materials
+
+The system provides a course-material management module.
+
+Administrators can upload educational files, while students can access and download available course materials.
+
+The system supports organization of materials by:
+
+- Course
+- Chapter
+- File
+
+The project contains the database structure required for course-material management.
+
+---
+
+# 📊 Reports
+
+The system provides reporting functionality for library management.
+
+Reports can contain information related to:
+
+- Books
+- Borrowing
+- Students
+- Librarians
+- Library activities
+- Fines
+- Other system information
+
+Reports can also be exported where supported by the system.
+
+---
+
+# 🔐 Role-Based Access
+
+The system uses role-based access control.
+
+### Student
+
+Students have access to student-related services such as:
+
+- Browsing books
+- Borrowing information
+- Reservations
+- Fines
+- Course materials
+- Profile management
+
+### Librarian
+
+Librarians have access to library-management operations such as:
+
+- Book management
+- Borrowing
+- Returns
+- Reservations
+- Student borrowing records
+- Reports
+- Schedules
+
+### Administrator
+
+Administrators have broader system-management privileges such as:
+
+- User management
+- Librarian management
+- Student management
+- Course materials
+- Reports
+- System administration
+
+---
+
+# 🛠️ Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -92,22 +273,25 @@ Administrators can:
 | **HTML5** | Web page structure |
 | **CSS3** | User interface styling |
 | **JavaScript** | Client-side functionality and validation |
-| **Bootstrap** | Responsive user interface |
-| **PHPMailer** | Email notifications |
+| **Bootstrap** | Responsive interface components |
+| **PHPMailer** | Email communication |
 | **XAMPP** | Local development environment |
-| **Git & GitHub** | Version control and project hosting |
+| **Composer** | PHP dependency management |
+| **Git** | Version control |
+| **GitHub** | Source code hosting |
 
 ---
 
-## 🗄️ Database
+# 🗄️ Database
 
 The system uses **MySQL** as its database management system.
 
-The database stores information including:
+The database stores information related to:
 
 - User accounts
 - Students
 - Librarians
+- Administrators
 - Books
 - Borrowing records
 - Reservations
@@ -116,362 +300,8 @@ The database stores information including:
 - Course materials
 - Library activities
 
-The database schema is available at:
+The database schema is available in:
 
 ```text
 sql/schema.sql
-```
-
----
-
-## 🔐 User Roles
-
-The system uses role-based access control.
-
-```text
-                    Library Management System
-                              │
-              ┌───────────────┼───────────────┐
-              │               │               │
-           Student         Librarian       Admin
-              │               │               │
-          Borrow Books     Manage Books    Manage Users
-          Reserve Books    Issue Books     Manage System
-          View Fines       Return Books    Upload Materials
-          View History     Reports         Reports
-```
-
----
-
-## ⚙️ Installation
-
-### 1. Clone the Repository
-
-Open your terminal and run:
-
-```bash
-git clone https://github.com/hagosgoytom670-art/library-management-system.git
-```
-
-### 2. Move the Project
-
-Place the project inside the XAMPP `htdocs` directory:
-
-```text
-C:\xampp\htdocs\lmsPro
-```
-
-### 3. Start XAMPP
-
-Open XAMPP Control Panel and start:
-
-```text
-Apache
-MySQL
-```
-
-### 4. Create the Database
-
-Open phpMyAdmin:
-
-```text
-http://localhost/phpmyadmin
-```
-
-Create a database named:
-
-```text
-library_system
-```
-
-### 5. Import the Database
-
-Select the `library_system` database and import:
-
-```text
-sql/schema.sql
-```
-
-### 6. Configure Database Connection
-
-The database connection is configured in:
-
-```text
-db.php
-```
-
-Default XAMPP configuration:
-
-```php
-<?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "library_system";
-
-$conn = new mysqli($host, $user, $pass, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
-```
-
-### 7. Open the Application
-
-After starting Apache and MySQL, open:
-
-```text
-http://localhost/lmsPro/
-```
-
----
-
-## 📂 Project Structure
-
-```text
-lmsPro/
-│
-├── api/
-│   ├── dashboard_stats.php
-│   └── recent_activity.php
-│
-├── assets/
-│   ├── css/
-│   ├── images/
-│   └── js/
-│
-├── dashboards/
-│   ├── admin.php
-│   ├── librarian.php
-│   └── student.php
-│
-├── includes/
-│   ├── auth.php
-│   ├── header.php
-│   ├── footer.php
-│   ├── about.php
-│   ├── help.php
-│   └── terms.php
-│
-├── modules/
-│   ├── admins/
-│   ├── librarians/
-│   └── students/
-│
-├── screenshots/
-│   ├── Admin_DashBoard.png
-│   ├── Librarian_DashBoard.png
-│   ├── Loginpng.png
-│   ├── Request_Reaervation.png
-│   └── Student_Dashboard.png
-│
-├── sql/
-│   └── schema.sql
-│
-├── db.php
-├── index.php
-├── login.php
-├── logout.php
-├── nav.php
-└── README.md
-```
-
----
-
-## 📸 Screenshots
-
-### 🔐 Login Page
-
-![Login Page](screenshots/Loginpng.png)
-
----
-
-### 👨‍💼 Admin Dashboard
-
-![Admin Dashboard](screenshots/Admin_DashBoard.png)
-
----
-
-### 📚 Librarian Dashboard
-
-![Librarian Dashboard](screenshots/Librarian_DashBoard.png)
-
----
-
-### 👨‍🎓 Student Dashboard
-
-![Student Dashboard](screenshots/Student_Dashboard.png)
-
----
-
-### 📖 Book Reservation
-
-![Book Reservation](screenshots/Request_Reaervation.png)
-
----
-
-## 📚 Main Modules
-
-### Authentication
-
-- User login
-- Student registration
-- Password management
-- Role-based authentication
-- Logout functionality
-
-### Book Management
-
-- Add books
-- Edit books
-- Delete books
-- Search books
-- Check availability
-- Book catalog
-
-### Borrowing System
-
-- Issue books
-- Return books
-- Borrowing history
-- Due dates
-- Fine calculation
-
-### Reservation System
-
-- Student book reservation
-- Librarian reservation management
-- Reservation status tracking
-
-### Course Materials
-
-- Upload course materials
-- Organize learning resources
-- Download materials
-- Course and chapter organization
-
-### Reporting
-
-- Borrowing reports
-- Library reports
-- Student records
-- System activity information
-
-### Notifications
-
-- Email notifications
-- Borrowing notifications
-- Return notifications
-- Reservation-related notifications
-
----
-
-## 🔒 Security
-
-The project uses role-based access control to restrict access to different parts of the system.
-
-Sensitive information and generated files are excluded from version control using `.gitignore`.
-
-Excluded items include:
-
-```text
-.env
-uploads/
-modules/admin/uploads/
-modules/admins/uploads/
-vendor/
-.vscode/
-*.log
-```
-
----
-
-## 📧 Email Notifications
-
-The system uses **PHPMailer** to support email communication.
-
-Email functionality can be used for events such as:
-
-- Book issuance
-- Book returns
-- Overdue notifications
-- Other library-related notifications
-
----
-
-## 💻 Local Development Environment
-
-This project was developed and tested using:
-
-```text
-XAMPP
-PHP
-MySQL
-Apache
-```
-
-The application can be run locally through:
-
-```text
-http://localhost/lmsPro/
-```
-
----
-
-## 📈 Future Improvements
-
-Possible future improvements include:
-
-- Online deployment
-- Cloud database integration
-- Advanced dashboard analytics
-- Mobile application
-- Online payment integration
-- Automated overdue reminders
-- Improved reporting and data visualization
-- REST API integration
-
----
-
-## 🎓 Project Purpose
-
-This project was developed as an academic and professional portfolio project to demonstrate practical skills in:
-
-- Web application development
-- PHP programming
-- MySQL database design
-- Front-end development
-- JavaScript programming
-- Authentication
-- Role-based access control
-- Database integration
-- Email integration
-- Git and GitHub
-
----
-
-## 📄 License
-
-This project was developed as an academic and professional portfolio project.
-
----
-
-## ⭐ Repository
-
-If you are interested in the project, you can explore the complete source code here:
-
-**GitHub Repository:**  
-https://github.com/hagosgoytom670-art/library-management-system
-
----
-
-## 📬 Contact
-
-**Hagos Goytom Hadis**
-
-📧 Email: hagosgoytom670@gmail.com
-
-💻 GitHub:  
-https://github.com/hagosgoytom670-art
 
