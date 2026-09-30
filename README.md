@@ -12,7 +12,7 @@ A web-based **Library Management System (LMS)** developed to simplify and automa
 
 📍 Addis Ababa, Ethiopia
 
-📧 **Email:** hagosgoytom670@gmail.com
+📧 **Email:** [hagosgoytom670@gmail.com](mailto:hagosgoytom670@gmail.com)
 
 💻 **GitHub:**  
 https://github.com/hagosgoytom670-art
@@ -152,7 +152,7 @@ The system also provides borrowing history for students and library staff.
 
 Students can request reservations for books through the reservation module.
 
-The librarian can then:
+Librarians can:
 
 - View reservation requests
 - Check reservation information
@@ -202,106 +202,7 @@ The system supports organization of materials by:
 - Chapter
 - File
 
-The project contains the database structure required for course-material management.
-
----
-
-# 📊 Reports
-
-The system provides reporting functionality for library management.
-
-Reports can contain information related to:
-
-- Books
-- Borrowing
-- Students
-- Librarians
-- Library activities
-- Fines
-- Other system information
-
-Reports can also be exported where supported by the system.
-
----
-
-# 🔐 Role-Based Access
-
-The system uses role-based access control.
-
-### Student
-
-Students have access to student-related services such as:
-
-- Browsing books
-- Borrowing information
-- Reservations
-- Fines
-- Course materials
-- Profile management
-
-### Librarian
-
-Librarians have access to library-management operations such as:
-
-- Book management
-- Borrowing
-- Returns
-- Reservations
-- Student borrowing records
-- Reports
-- Schedules
-
-### Administrator
-
-Administrators have broader system-management privileges such as:
-
-- User management
-- Librarian management
-- Student management
-- Course materials
-- Reports
-- System administration
-
----
-
-# 🛠️ Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| **PHP** | Backend development |
-| **MySQL** | Database management |
-| **HTML5** | Web page structure |
-| **CSS3** | User interface styling |
-| **JavaScript** | Client-side functionality and validation |
-| **Bootstrap** | Responsive interface components |
-| **PHPMailer** | Email communication |
-| **XAMPP** | Local development environment |
-| **Composer** | PHP dependency management |
-| **Git** | Version control |
-| **GitHub** | Source code hosting |
-
----
-
-# 🗄️ Database
-
-The system uses **MySQL** as its database management system.
-
-The database stores information related to:
-
-- User accounts
-- Students
-- Librarians
-- Administrators
-- Books
-- Borrowing records
-- Reservations
-- Fines
-- Payments
-- Course materials
-- Library activities
-
-The database schema is available in:
+The database structure required for course-material management is included in:
 
 ```text
 sql/schema.sql
-
